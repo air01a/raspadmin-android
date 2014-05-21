@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.parlonssecurite.raspberrrypi.raspadmin"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="19" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+	
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:largeHeap="false">
+        
+        <activity
+            android:name=".WebActivity"
+            android:screenOrientation="landscape"
+         />
+
+   		
+        <activity
+            android:name="com.parlonssecurite.raspberrrypi.raspadmin.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/AppBaseTheme" android:name="TestActivity"></activity>
+
+		<activity
+    		android:name="com.haibison.android.lockpattern.LockPatternActivity"
+    		android:configChanges="orientation|screenSize|keyboard|keyboardHidden"
+    		android:screenOrientation="landscape"
+    		android:theme="@style/Alp.42447968.Theme.Dark" />
+		<activity android:name="PatternRecoveryActivity"></activity>
+		<activity android:name="AddHost"></activity>
+
+    </application>
+
+</manifest>

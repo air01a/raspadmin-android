@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical" >
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name" />
+    <EditText
+        android:id="@+id/et_host"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/host" />
+    <CheckBox
+        android:id="@+id/cb_ssl"
+        android:checked="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ssl" />
+ 
+    <EditText
+        android:id="@+id/et_port"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:hint="@string/port" />
+    <EditText
+        android:id="@+id/et_user"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:hint="@string/user" />
+    <EditText
+        android:id="@+id/et_password"
+        android:inputType="textPassword" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:hint="@string/password" />
+    <Button
+        android:id="@+id/buttonaddhost"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/send" />
+</LinearLayout>
