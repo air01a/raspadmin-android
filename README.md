@@ -14,4 +14,6 @@ All information (login / password / address) are stored encrypted with the lock 
 <p align="center">![Alt text](http://www.parlonssecurite.com/raspadmin/Screenshot_2014-05-21-17-47-15.png "stored inforamtion")</p><br />
 Basically, this application is a webview client customized with add-on for menu navigation, and storing information...
 
+This application is still in test, and is not available yet on the market. You can download the APK if you want to use it (the only right required is "Internet Access"). For installing the apk, transfer the file from the directory APK (RaspAdmin.apk) to your android device, and click on it (be sure you have enable "installation from unknown source").
+
 
